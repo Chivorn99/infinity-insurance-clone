@@ -37,7 +37,7 @@
 - Employee Photos: [Infinity Insurance](https://www.infinity.com.kh/)
 
 ### Fonts
-- System fonts (Franklin Gothic Medium, Arial)
+- System fonts (Arial)
 
 ### Icons
 - Unicode symbols for social media and theme toggle
