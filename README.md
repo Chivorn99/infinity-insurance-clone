@@ -3,7 +3,7 @@
 **Created by: Nhoung Norakchivorn**
 
 ## 🔗 Live Demo
-[View Live Site](https://yourusername.github.io/infinity-insurance-clone)
+[View Live Site](https://chivorn99.github.io/infinity-insurance-clone/)
 
 ## 📸 Screenshots
 
