@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Infinity Insurance</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Infinity Insurance Logo">
+        </div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#">GET QUOTE</a></li>
+                <li><a href="#">CLAIM</a></li>
+                <li><a href="#">COMPLAIN</a></li>
+                <li><a href="#">NEWSROOM</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+            <button class="change-theme" aria-label="Toggle theme"> ☀ </button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-banner">
+            <div class="banner-scroll">
+                <div class="banner-item">
+                    <img src="assets/images/co_homepage_en.svg" alt="Banner 1">
+                </div>
+                <div class="banner-item">
+                    <img src="assets/images/co_homepage_en.svg" alt="Banner 2">
+                </div>
+            </div>
+            <div class="scroll-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+        <section class="about-us-container">
+            <div class="about-us">
+                <h1>
+                    <span class="about-title-line">Why</span>
+                    <span class="about-title-accent">Infinity<br> Insurance?</span>
+                </h1>
+                <p>At Infinity, we understand that choosing the best insurance provider for your business or personal
+                    needs involves weighing many factors. As such, we have worked hard over the years to earn our
+                    clients’ trust by truly becoming an industry leader in the following areas:</p>
+            </div>
+            <div class="about-us-pic">
+                <img src="assets/images/reward.jpg" alt="about-us-picture">
+            </div>
+        </section>
+        <section class="employees-banner">
+            <div class="employees-scroll">
+                <div class="employee-item">
+                    <figure class="employees-card">
+                        <img src="assets/images/employees.svg" alt="Employee 1" />
+                    </figure>
+                    <div class="employees-quote">
+                        <p class="quote-text">
+                            As we have experienced with Infinity for these couple of years, I can say,
+                            Infinity is a good service provider, reasonable price, staffs are friendly and
+                            helpful. That's why Palladium still uses Infinity products and services.
+                        </p>
+                        <div class="quote-meta">
+                            <div class="person-name">Dina Keo</div>
+                            <div class="person-role">HR And Admin Officer, The Palladium Group</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="employee-item">
+                    <figure class="employees-card">
+                        <img src="assets/images/employees.svg" alt="Employee 1" />
+                    </figure>
+                    <div class="employees-quote">
+                        <p class="quote-text">
+                            As we have experienced with Infinity for these couple of years, I can say,
+                            Infinity is a good service provider, reasonable price, staffs are friendly and
+                            helpful. That's why Palladium still uses Infinity products and services.
+                        </p>
+                        <div class="quote-meta">
+                            <div class="person-name">Dina Keo</div>
+                            <div class="person-role">HR And Admin Officer, The Palladium Group</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="employee-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="contact-info">
+            <div class="social-media">
+                <div class="logo-footer">
+                    <img src="assets/images/logo-footer.png" alt="Infinity Insurance Logo">
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="icon-facebook" aria-label="Facebook">f</a>
+                    <a href="#" class="icon-linkedin" aria-label="LinkedIn">in</a>
+                    <a href="#" class="icon-youtube" aria-label="YouTube">▶</a>
+                </div>
+            </div>
+            <div class="support">
+                <h2>Support</h2>
+                <ul class="support-list">
+                    <li><a href="#">Claim Forms</a></li>
+                    <li><a href="#">Panel Clinics</a></li>
+                    <li><a href="#">Garage Patners</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <h2>Company</h2>
+                <ul class="company-list">
+                    <li><a href="#">Vision and Mission</a></li>
+                    <li><a href="#">CSR</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </div>
+        </div>
+        <p id="credit">&copy; 2025 Infinity Insurance. All rights reserved.</p>
+    </footer>
+    <script>
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
